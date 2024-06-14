@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+   
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: aliceblue;
+}
+
+.overlay button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+.quality {
+    width: 100%;
+    height: 350px;
+    padding: 100px 200px;
+    background-color: black;
+}
+
+.choose {
+    width: 100%;
+    height: 200px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+.card img{
+    width: 100%;
+    height: 280px;
+}
+.row h3{
+    margin-bottom: 30px;
+}
+.headd{
+    text-align: center;
+    padding: 30px;
+}
+.card{
+    box-shadow: 6px 6px 6px rgb(144, 144, 144);
+}
+#cards{
+    background-color: black;
+}
+.card:hover{
+    transform: scale(1.1);
+    background-color: rgb(129, 128, 117);
+    color: bisque;
+}
+#gallery h3{
+    margin-left: 50px;
+    color:bisque;
+}
+#gallery {
+    background-color: black;
+}
+#features{
+    background-color: black;
+}
+.blur-hover img {
+    transition: filter 0.2s;
+}
+
+.blur-hover img:hover {
+    filter: blur(3px);
+}
+
+.offer{
+   width: 100%;
+   height: 200px;
+   background-color:black;
+   color: bisque;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}  
+.offer button{
+    width: 150px;
+    height: 50px;
+   border-radius: 20px;
+   position: absolute;
+   left: 70%;
+}
+.mapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+.mapcovr{
+    margin-bottom:30px;
+    border: 3px solid black;
+    width: 100%;
+}
+
